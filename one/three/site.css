@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.box{
+    padding:20px;
+    background-color:#eee;
+    border:1px solid #999;
+}
+#container{
+    position: relative;
+    overflow: hidden;
+    margin:20px;
+}
+#container:after{
+ clear: both;
+}
+#left{
+    width:160px;
+    float:left;
+    position:relative;
+}
+ img{
+    width:80px;
+    height:80px;
+}
+#left div{
+    position:absolute;
+    right:20px;
+    top:20px;
+  
+}
+#mid{
+margin:0 140px 0 220px;
+}
+#right{
+    float:right;
+    right:20px;
+    top:20px;
+}
+#right img{
+    width:80px;
+    margin:0 auto 10px;
+}
