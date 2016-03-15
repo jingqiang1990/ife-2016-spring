@@ -1,10 +1,161 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Ife-2016-spring for oneteamoneteam task one/one</title>
+    <meta charset="utf-8" />
+    <title>Task one.</title>
+    <base href="http://github.ghfan.me/ife-2016-spring/one/one/" />
   </head>
   <body>
-		<h1>Phase one task one.</h1>
-  </body>
+    <h1>first level title</h1>
+    <nav>
+      <ul>
+        <li><a href="">nav link one</a></li>
+        <li><a href="">nav link two</a></li>
+        <li><a href="">nav link three</a></li>
+        <li><a href="">nav link four</a></li>
+      </ul>
+    </nav>
+    <article>
+      <header>
+        <h2>article first level title</h2>
+        <h3>article second level title</h3>
+      </header>
+      <p><span>article author</span> <time>article publish time</time></p>
+      <p>
+        this is a long long paragraph.<br />
+        this is a long long paragraph.<br />
+        this is a long long paragraph. <a href="http://ife.baidu.com">this link to http://ife.baidu.com</a> This is a long long paragraph. <b>this is bold.</b><br />
+        this is a long long paragraph.<br />
+      </p>
+      <p><img src="image/girl.jpg" alt="zooey with gun">local</p>
+      <p><img src="https://styleinspades.files.wordpress.com/2010/01/notlikeparis-wordpress-com.jpg" alt="zooey with gun">url</p>
+      <p>
+        this is a long long paragraph.<br />
+        this is a long long paragraph. <b>there is a bold text.</b>this is a long long paragraph. <a href="http://ife.baidu.com" target="_blank">this open a new tab to http://ife.baidu.com</a><br />
+      </p>
+    </article>
+    <article>
+      <header>
+        <h2>another article first level title</h2>
+        <h3>another article second level title</h3>
+      </header>
+      <p><span>article author</span>&nbsp;<time>article publish time</time></p>
+      <p>
+        this is a long long paragraph.<br />
+        this is a long long paragraph. <a href="http://ife.baidu.com">this link to http://ife.baidu.com</a> This is a long long paragraph. <b>this is bold.</b><br />
+      </p>
+      <p><img src="image/girl.jpg" alt="zooey with gun"></p>
+      <ul>
+        <li>list item one</li>
+        <li>list item two</li>
+        <li>list item three</li>
+      </ul>
+      <section>
+        <h2>images</h2>
+        <figure>
+          <figcaption>beautifle pic</figcaption>
+          <img src="image/girl.jpg" alt="zooey with gun">
+        </figure>
+        <figure>
+          <figcaption>beautiful pic</figcaption>
+          <img src="image/girl.jpg" alt="zooey with gun">
+        </figure>
+        <figure>
+          <figcaption>beautiful pic</figcaption>
+          <img src="image/girl.jpg" alt="zooey with gun">
+        </figure>
+        <figure>
+          <figcaption>beautiful pic</figcaption>
+          <img src="image/girl.jpg" alt="zooey with gun">
+        </figure>
+        <figure>
+          <figcaption>beautiful pic</figcaption>
+          <img src="image/girl.jpg" alt="zooey with gun">
+        </figure>
+      </section>
+    </article>
+    <article>
+      <header>
+        <h2>last article first level title</h2>
+        <h3>last article second level title</h3>
+      </header>
+      <p><span>article author</span>&nbsp;<time>article publish time</time></p>
+      <ol>
+        <li>rank 1</li>
+        <li>rank 2</li>
+        <li>rank 3</li>
+      </ol>
+      <div>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>table header</th>
+              <th>table header</th>
+              <th>table header</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>table cell content</td>
+              <td>table cell content</td>
+              <td><a href="#">action</a></td>
+            </tr>
+            <tr>
+              <td>table cell content</td>
+              <td>table cell content</td>
+              <td><a href="#">action</a></td>
+            </tr>
+            <tr>
+              <td>table cell content</td>
+              <td>table cell content</td>
+              <td><a href="#">action</a></td>
+            </tr>
+            <tr>
+              <td>in total</td>
+              <td colspan="2">1000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <aside>
+        <h2>there will be a aside section, this is the title of the aside</h2>
+        <h2>aside section register title</h2>
+        <form action="">
+          <div class="input_line">
+            <label for="email">enter email address</label>
+            <input type="text" name="email" placeholder="this is a text input">
+            <span>email address need in right format</span>
+          </div>
+          <div class="input_line">
+            <label for="password">enter password</label>
+            <input type="password" name="password" placeholder="this is a text input " pattern="[A-Za-Z{6,16}]">
+          </div>
+          <div class="input_line">
+            <label for="repassword">enter password again</label>
+            <input type="password" name="repassword" placeholder="this is a text input " pattern="[A-Za-Z{6,16}]">
+            <span>password are 6-16 letters and numbers</span>
+          </div>
+          <p>
+            gender:&nbsp;
+            <input type="radio" checked name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female
+            city:&nbsp;
+            <select name="cities" id="">
+              <option value="beijing" selected>beijing</option>
+              <option value="shanghai">shanghai</option>
+              <option value="guangzhou">guangzhou</option>
+            </select>
+            hobby:&nbsp;
+            <input type="checkbox" name="hobby">sport
+            <input type="checkbox" name="hobby">art
+            <input type="checkbox" name="hobby">science
+            bio:&nbsp;
+            <textarea name="" id="" cols="30" rows="10">multi lines input area,you bio</textarea>
+            <input type="submit" value="submit">
+          </p>
+        </form>
+      </aside>
+    </article>
+    <footer>All right reserve &copy;</footer>
+  </<body>
 </html>
